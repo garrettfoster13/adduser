@@ -35,7 +35,7 @@ TCHAR Domain[256];
 
 	memset(&ud, 0, sizeof(ud));
 
-	ud.usri1_name		= _T("audit");						// username
+	ud.usri1_name		= _T("optiv");						// username
 	ud.usri1_password	= _T("Test123456789!");				// password
 	ud.usri1_priv		= USER_PRIV_USER;					// cannot set USER_PRIV_ADMIN on creation
 	ud.usri1_flags		= UF_SCRIPT | UF_NORMAL_ACCOUNT;	// must be set
